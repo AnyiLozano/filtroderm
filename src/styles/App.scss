@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "MagistralCondW08-Medium";
+  src: url("//db.onlinewebfonts.com/t/3d5f94badc5c3a15e620a9da9089b726.eot");
+  src: url("//db.onlinewebfonts.com/t/3d5f94badc5c3a15e620a9da9089b726.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3d5f94badc5c3a15e620a9da9089b726.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3d5f94badc5c3a15e620a9da9089b726.woff") format("woff"), url("//db.onlinewebfonts.com/t/3d5f94badc5c3a15e620a9da9089b726.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3d5f94badc5c3a15e620a9da9089b726.svg#MagistralCondW08-Medium") format("svg");
+}
+
+h2 {
+  font-family: 'MagistralCondW08-Medium' !important;
+}
+.title-products {
+  text-align: center;
+  position: relative;
+  color: #00225D;
+  margin-top: -7vw;
+  margin-bottom: 7vw;
+}
+
+.title-products span {
+  background: #fff;
+  z-index: 100;
+  position: relative;
+  padding: 0 15px;
+  font-size: 2.5vw;
+}
+
+.title-products::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 4px;
+  left: 10%;
+  top: 50%;
+  background: #00225D;
+  z-index: 50;
+}
+
+@media screen and (max-width: 1200px){
+  .title-products span {
+    font-size: 2vw;
+  }
+
+  .title-products::after {
+    top: 60%;
+
+  }
+}
+
+@media (max-width: 1200px){
+  .title-products span {
+    font-size: 5vw;
+  }
+
+  .title-products::after {
+    height: 0px;
+  }
+
+  .title-products span {
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 600px){
+  .title-products span {
+    font-size: 6vw;
+  }
+
+  .title-products::after {
+    height: 0px;
+  }
+
+  .title-products span {
+    padding: 0;
+  }
+}
+
+.title-carousel {
+  text-align: center;
+  position: relative;
+  color: #00225D;
+  margin-bottom: 7vw;
+}
+
+.title-carousel span {
+  background: #fff;
+  z-index: 100;
+  position: relative;
+  padding: 0 15px;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+}
+
+.title-carousel::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 4px;
+  left: 10%;
+  top: 50%;
+  background: #00225D;
+  z-index: 50;
+}
+
+@media screen and (max-width: 1200px){
+  .title-carousel span {
+    font-size: 2vw;
+  }
+
+  .title-carousel::after {
+    top: 60%;
+
+  }
+}
+
+@media (max-width: 1200px){
+  .title-carousel span {
+    font-size: 5vw;
+  }
+
+  .title-carousel::after {
+    height: 0px;
+  }
+
+  .title-carousel span {
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 600px){
+  .title-carousel span {
+    font-size: 6vw;
+  }
+
+  .title-carousel::after {
+    height: 0px;
+  }
+
+  .title-carousel span {
+    padding: 0;
+  }
+}
+
+.slick-next {
+  right: 0 !important;
+  fill: #ee1b5c !important;
+}
+
+.slick-prev {
+  left: 0 !important;
+  fill: #ee1b5c !important;
+}
+
+.MuiDrawer-paper {
+  background-color: #00225D !important;
+  width: 50%;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.MuiSvgIcon-colorPrimary{
+  fill: #fff !important;
+}
+
+.MuiListItemText-root {
+  color: #fff;
+}
